@@ -9,7 +9,7 @@
     <Reviews />
     <Numbers />
     <Contact />
-    <Newsletter />
+<!--    <Newsletter />-->
     <Footer />
   </div>
 </template>
@@ -23,7 +23,7 @@ import Team from '@/components/Team'
 import Reviews from '@/components/Reviews'
 import Numbers from '@/components/Numbers'
 import Contact from '@/components/Contact'
-import Newsletter from '@/components/Newsletter'
+// import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 import About from '../components/About.vue'
 
@@ -38,7 +38,7 @@ export default {
     Reviews,
     Numbers,
     Contact,
-    Newsletter,
+    // Newsletter,
     Footer,
     About
 }

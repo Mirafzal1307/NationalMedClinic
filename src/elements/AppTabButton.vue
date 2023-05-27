@@ -17,11 +17,11 @@
     v-on="$listeners"
   >
     <div class="flex items-center justify-center px-2">
-      <AppIcon
-        left
-        :name="icon"
-        :color="active ? 'light' : background"
-      />
+<!--      <AppIcon-->
+<!--        left-->
+<!--        :name="icon"-->
+<!--        :color="active ? 'light' : background"-->
+<!--      />-->
       <slot></slot>
     </div>
   </button>
@@ -31,7 +31,7 @@
 export default {
   name: 'AppTabButton',
   props: {
-    background: { type: String, default: 'primary' },
+    background: { type: String, default: 'blue-500' },
     color: { type: String, default: 'light' },
     large: { type: Boolean, default: false },
     active: { type: Boolean, default: false },

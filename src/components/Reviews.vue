@@ -4,8 +4,8 @@
       <div class="flex flex-col space-y-8 items-center">
         <div class="w-full">
           <div class="md:w-8/12 space-y-2">
-            <div class="text-4xl text-light md:text-5xl font-black">Grab every potential client</div>
-            <div class="text-lg font-semibold text-primary-l-2">Donec finibus est sit amet nisl mattis pharetra. Fusce at tortor massa. Vestibulum nec nisi quis nunc finibus lobortis.</div>
+            <div class="text-4xl text-light md:text-5xl font-black">Бизнинг мижозларимиз</div>
+            <div class="text-lg font-semibold text-primary-l-2">Ҳар бир мижознинг фикри биз учун жуда муҳим</div>
           </div>
         </div>
         <!-- Carousel -->
@@ -91,11 +91,11 @@ export default {
     activeId: null,
     carousel: [],
     reviews: [
-      {id: 1, name: 'Alice Lopez', designation: 'CEO', company: 'Brackson', message: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia anim id est laborum.', avatar: 'alice.jpg'},
-      {id: 2, name: 'Gwen Sanchez', designation: 'Technical Director', company: 'Sicily & Jones', message: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', avatar: 'gwen.jpg'},
-      {id: 3, name: 'Harry Thompson', designation: 'General Manager', company: 'Ravenhorse', message: 'Molestie nunc non blandit massa enim nec dui. Facilisis leo vel fringilla est ullamcorper. Et malesuada fames ac turpis egestas sed.', avatar: 'harry.jpg'},
-      {id: 4, name: 'Stefani Yang', designation: 'Investor', company: 'Market Science', message: 'Sapien pellentesque habitant morbi tristique senectus et netus et malesuada.', avatar: 'stefani.jpg'},
-      {id: 5, name: 'Mehdi Medjaoui', designation: 'Founder', company: 'Harper Central', message: 'Adipiscing tristique risus nec feugiat in fermentum posuere urna. Vel eros donec ac odio tempor orci dapibus.', avatar: 'mehdi.jpg'}
+      {id: 1, name: 'Тошпўлатов A.A.',  message: 'Мен муаллифнинг фикрига қўшиламан, ҳақиқатан ҳам мен ўзим бир қатор касалликларга дуч келдим, текширув учун пулни беҳуда сарфлашга дуч келдим, мен доктор Жуковга мурожаат қилдим, у ҳамма нарсани синчковлик билан ўрганиб чиқди, дарҳол тўлиқ текширувдан ўтди ва бу аниқ бўлди. ', avatar: '4www.webp'},
+      {id: 2, name: 'Исмаилова G.M.',  message: 'Энг зўр шифохона, ўзим у ерда даволандим ва ҳаммага тавсия қиламан.', avatar: '3www.jpeg'},
+      {id: 3, name: 'Зебо Назарова',  message: 'Доктор жаноблари сизга, сизи издош хамкасбларингизга бошимиз ерга теккунча таьзимлаааар, яшанглар, умрлариздан барака топинглар, Оллох сизларга мингни берсин, бошлаган ишларингиз хайрли болсин доимо эл ардогида болинглар,сиздай инсонлар копаяверсин.', avatar: '5www.jpg'},
+      {id: 4, name: 'Муҳаммад Али',  message: 'Энг зўр шифохона, ўзим у ерда даволандим ва ҳаммага тавсия қиламан.', avatar: '2www.webp'},
+      {id: 5, name: 'Михаэл A.I.',  message: 'Ассалому алейкум доктор спасибо вам огромное за полезную тему , я уже достаточно много живу вашими советами и чувствую себя хорошо даже лучше молодых которые ведут неправильный образ жизни , хорошо бы эти молодые тоже всё это слышали и исполняли жаль они не ценят и не осознают что жизнь коротка и надо прожить её  здоровой эту всё в их пользу , но некоторые не слышат и не хотят слышать (у них червивые мозги) спасибо вам большое  за ваше доброе сердце РАХМАТ.', avatar: '1www.jpg'}
     ]
   }),
   watch: {

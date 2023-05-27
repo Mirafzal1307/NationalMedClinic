@@ -3,8 +3,8 @@
     <div class="max-w-7xl mx-auto px-4 md:px-16 py-14">
       <div class="flex flex-col space-y-8">
         <div class="w-full md:w-8/12 space-y-2 mx-auto">
-          <div class="text-4xl md:text-5xl font-black text-center">Meet the team</div>
-          <div class="text-lg font-semibold text-dark-l-6 text-center">Morbi sit amet sollicitudin arcu condimentum, nisi vitae aliquam sagittis, lorem lorem.</div>
+          <div class="text-4xl md:text-5xl font-black text-center">Жамоамиз билан танишинг</div>
+          <div class="text-lg font-semibold text-dark-l-6 text-center">Бизнинг аҳил жамоамиз сизнинг саломатлигингизни барча нарсадан устун қўйишади.</div>
         </div>
         <div class="w-full md:w-8/12 mx-auto">
           <div class="flex flex-wrap flex-shrink justify-center gap-2 md:gap-5">
@@ -14,7 +14,7 @@
               :key="key"
               :active="activeDept===department.name"
               @click="activeDept = department.name===activeDept ? '' : department.name"
-              :icon="department.icon"
+
             >
               {{department.name}}
             </AppTabButton>
@@ -33,6 +33,7 @@
               :role="character.role"
               :active="character.id===activeId"
               :focus="activeDept===character.department"
+              :experience="character.experience"
             />
           </div>
         </div>
@@ -48,21 +49,18 @@ export default {
   data: () => ({
     activeDept: '',
     departments: [
-      { name: 'Head Doctor', icon: 'font' },
-      { name: 'Assistant Doctor', icon: 'font' },
-      { name: 'Head', icon: 'font' }
+      { name: 'Врач дерматолог' },
+      { name: 'Врач офтальмолог' },
+      { name: 'Врач терапевт, УЗИ'},
+      { name: 'Акушер-гинеколог, УЗИ'},
+
     ],
     activeId: null,
     characters: [
-      { id: 1, name: 'Alex Sanders', department: 'Doctor D', role: 'Doctor D', file: 'alex.png' },
-      { id: 2, name: 'Ian Dominguez', department: 'Doctor K', role: 'Doctor K', file: 'ian.png' },
-      { id: 3, name: 'Eliza Howell', department: 'Doctor H', role: 'Doctor H', file: 'eliza.png' },
-      { id: 4, name: 'Alison Cobb', department: 'Doctor N', role: 'Doctor N', file: 'alison.png' },
-      { id: 5, name: 'Minnie Brown', department: 'Doctor B', role: 'Doctor B', file: 'minnie.png' },
-      { id: 6, name: 'Gabby Hoffman', department: 'Doctor A', role: 'Doctor A', file: 'gabby.png' },
-      { id: 7, name: 'Ryan Hernandez', department: 'Doctor C', role: 'Doctor C ', file: 'ryan.png' },
-      { id: 8, name: 'Tiffany Chang', department: 'Doctor P', role: 'Doctor P ', file: 'tiffany.png' },
-
+      { id: 1, name: 'Шоматов Сирожиддин Холмуродович', department: 'Врач дерматолог', role: 'Врач дерматолог', experience: '30 йиллик стаж',  file: 'cholDoc.png' },
+      { id: 2, name: 'Яқубджанов Алишер Сабиржанович', department: 'Врач офтальмолог', role: 'Врач офтальмолог', experience: '30 йиллик стаж',  file: 'kokDoc.png' },
+      { id: 3, name: 'Каракулов Мутали Сапаралиевич', department: 'Врач терапевт, УЗИ', role: 'Врач терапевт, УЗИ', experience: '20 йиллик стаж',  file: 'oqDoc.png' },
+      { id: 4, name: 'Эрматова Адолат Абдужалиловна', department: 'Акушер-гинеколог, УЗИ', role: 'Акушер-гинеколог, УЗИ', experience: '10 йиллик стаж',  file: 'ayol.png' },
     ]
   })
 }

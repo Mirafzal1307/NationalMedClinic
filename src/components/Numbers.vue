@@ -30,10 +30,10 @@ export default {
 
   data: () => ({
     values: [
-      { text: '86%', caption: 'Recommended' },
-      { text: '21', caption: 'Certifications' },
-      { text: '736', caption: 'Happy Clients' },
-      { text: '50+', caption: 'Global Partners' }
+      { text: '86%', caption: 'Тавсия этилган' },
+      { text: '21', caption: 'Сертификатлар' },
+      { text: '736', caption: 'Ҳурсанд мижозлар' },
+      { text: '50+', caption: 'Глобал ҳамкорлар' }
     ]
   })
 }

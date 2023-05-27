@@ -10,12 +10,19 @@
     >
     <div
       :class="[
-        'text-2xl font-black tracking-tighter uppercase',
-        dark ? 'text-light' : 'text-dark'
+        'text-2xl font-bold tracking-tighter uppercase text-blue-500 text flex-col ',
+
       ]"
     >
-      National Clinic
+      <span class="" > National
+
+    </span> <span class="text-red-500" >Hospital
+
+    </span>
     </div>
+
+
+
   </router-link>
 </template>
 
@@ -27,3 +34,8 @@ export default {
   }
 }
 </script>
+<style scoped >
+.text{
+  letter-spacing: -2px;
+}
+</style>

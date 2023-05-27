@@ -4,9 +4,9 @@
       <div class="flex flex-col md:flex-row items-center space-y-10 md:space-y-0">
         <!-- Contact info -->
         <div class="w-full md:w-1/2 space-y-2">
-          <div class="text-4xl md:text-5xl font-black">Let us know how we can help you</div>
-          <div class="text-lg font-semibold text-dark-l-6">Aliquam condimentum, nisi vitae aliquam sagittis, lorem lorem
-            dapibus velit, a convallis metus arcu ut leo.</div>
+          <div class="text-4xl md:text-5xl font-black">Биз билан боғланиш
+          </div>
+          <div class="text-lg font-semibold text-dark-l-6">Биз билан оссон, тез ва иҳтиёрий вақтда боғланинг</div>
           <div class="space-y-1 pt-5">
             <a :href="`tel:${number}`" class="group">
               <div class="flex items-center">
@@ -25,7 +25,7 @@
         <!-- Contact form -->
         <div class="w-screen md:w-1/2 z-0">
           <div class=" md:rounded-xl md:ml-10 ml-0 relative w-full border-gray-500">
-  
+
 
               <div class=" w-full  rounded-md border-gray-700 px-4 ">
                 <iframe class=" w-full rounded-md h-96"
@@ -35,8 +35,8 @@
 
 
 
-  
-            <!--           
+
+            <!--
             <div class="invisible md:visible absolute -z-1 border-2 border-primary rounded-lg h-full w-full transform -rotate-3">
             </div>
 

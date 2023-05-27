@@ -81,12 +81,12 @@ export default {
   data: () => ({
     isActive: false,
     routes: [
-      { name: 'Home', to: 'home' },
-        { name: 'About', to: 'about' },
-      { name: 'Service', to: 'services' },
-      { name: 'Team', to: 'team' },
-      { name: 'Reviews', to: 'reviews' },
-      { name: 'Contact', to: 'contact' }
+      { name: 'Бош саҳифа', to: 'home' },
+        { name: 'Биз ҳақимизда', to: 'about' },
+      { name: 'Ҳизматлар', to: 'services' },
+      { name: 'Жамоа', to: 'team' },
+      { name: 'Мижозлар', to: 'reviews' },
+      { name: 'Алоқа', to: 'contact' }
     ],
     prevScroll: 0,
     toggleHeader: true,

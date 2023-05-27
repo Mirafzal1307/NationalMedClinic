@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="flex flex-col mt-8 p-8 space-y-5 flex-grow">
-      <AppIcon xx-large name="quote-left" :color="active ? 'primary-l-5' : 'primary'" />
+      <AppIcon xx-large name="quote-left" :color="active ? 'blue-500' : 'blue-500'" />
       <div :class="[
         'text-xl md:text-2xl font-extrabold flex-grow',
         active ? 'min-h-56' : 'clamp-5 max-h-40 h-40'
@@ -19,7 +19,7 @@
       </div>
       <div :class="[
         'pt-5 text-lg font-bold',
-        active ? 'text-primary-l-5' : 'text-primary'
+        active ? 'text-blue-500' : 'text-blue-500'
       ]">
         <div>{{ name }}</div>
         <div>{{ designation }}<span v-if="company">, {{ company }}</span></div>
