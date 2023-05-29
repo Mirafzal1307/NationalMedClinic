@@ -15,7 +15,7 @@
           class="p-5 flex flex-wrap align-center justify-center mx-auto group cursor-default"
         >
           <div class="my-auto space-y-1">
-            <div class="text-6xl text-center font-black text-light group-hover:text-transparent bg-clip-text bg-gradient-to-r from-primary-l-5 to-primary">{{value.text}}</div>
+            <div class="text-4xl text-center font-black text-light group-hover:text-transparent bg-clip-text bg-gradient-to-r from-primary-l-5 to-primary">{{value.text}}</div>
             <div class="text-center font-bold text-light group-hover:text-transparent bg-clip-text bg-gradient-to-r from-primary-l-5 to-primary">{{value.caption}}</div>
           </div>
         </div>
@@ -30,8 +30,8 @@ export default {
 
   data: () => ({
     values: [
-      { text: '100K+', caption: 'Мижозларнинг йиллик оқими' },
-      { text: '30+', caption: 'Мутахассислар' },
+      { text: '100K+', caption: 'Йиллик мижозлар' },
+      { text: '30+', caption: 'Мутахассислар сони' },
       { text: '100+', caption: 'Буюртмачи ташкилотлар' },
       { text: '10+', caption: 'Замонавий жиҳозлар' }
     ]
