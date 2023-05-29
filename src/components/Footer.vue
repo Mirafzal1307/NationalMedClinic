@@ -59,7 +59,7 @@ export default {
   data: () => ({
     medias: [
       { name: 'Instagram', icon: 'instagram', type: 'fab', to: 'https://instagram.com/nationalhospital.uz?igshid=NTc4MTIwNjQ2YQ==' },
-      { name: 'Telegram', icon: 'message-bot', type: 'far', to: 'https://t.me/national_hospital_bot' },
+      { name: 'telegram', icon: 'telegram', type: 'fab', to: 'https://t.me/national_hospital_bot' },
 
       // { name: 'LinkedIn', icon: 'linkedin', type: 'fab', to: '' }
     ],
