@@ -28,7 +28,7 @@
 
 
               <div class=" w-full  rounded-md border-gray-700 px-4 ">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d519.7202491769067!2d69.60222502047606!3d40.852192296387976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae2d93ca3e8029%3A0xbc456ae2fcd1cd34!2s20%20Ulitsa%20Furkata%2C%20Almalyk%20110100%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1685376904841!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class=" w-full rounded-md h-96" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d519.7202491769067!2d69.60222502047606!3d40.852192296387976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae2d93ca3e8029%3A0xbc456ae2fcd1cd34!2s20%20Ulitsa%20Furkata%2C%20Almalyk%20110100%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1685376904841!5m2!1sen!2s"  height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
 
 
