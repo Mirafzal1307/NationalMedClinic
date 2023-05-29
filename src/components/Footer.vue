@@ -60,8 +60,6 @@ export default {
     medias: [
       { name: 'Instagram', icon: 'instagram', type: 'fab', to: 'https://instagram.com/nationalhospital.uz?igshid=NTc4MTIwNjQ2YQ==' },
       { name: 'telegram', icon: 'telegram', type: 'fab', to: 'https://t.me/national_hospital_bot' },
-
-      // { name: 'LinkedIn', icon: 'linkedin', type: 'fab', to: '' }
     ],
     routes: [
       { name: 'Бош саҳифа', to: 'home' },
