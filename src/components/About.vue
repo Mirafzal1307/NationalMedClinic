@@ -8,7 +8,7 @@
                 </div>
                 <div class="grid grid-cols-12 gap-9 ">
                     <div class="col-span-10 md:col-span-6" >
-                        <img src="@/assets/images/medical-services.jpg" alt="rasm"  class="w-full h-full" >
+                        <img src="@/assets/images/three.jpg" alt="rasm"  class="w-full h-full" >
                     </div>
                     <div class=" col-span-9  md:col-span-6 px-3 md:px-0 " >
                         <br/>
@@ -36,13 +36,13 @@
                           қилишга интиламиз</p>
                     </div>
                     <div class="col-span-10 md:col-span-6" >
-                        <img src="@/assets/images/caring.webp" alt="rasm"  class="w-full h-full" >
+                        <img src="@/assets/images/one.jpg" alt="rasm"  class="w-full h-full" >
                     </div>
 
                 </div>
                 <div class="grid grid-cols-12 gap-9 ">
                     <div class="col-span-10 md:col-span-6" >
-                        <img src="@/assets/images/services-img1.jpg" alt="rasm"  class="w-full h-full" >
+                        <img src="@/assets/images/two.jpg" alt="rasm"  class="w-full h-full" >
                     </div>
                     <div class="col-span-9 md:col-span-6 px-3 md:px-0 " >
                         <br/>

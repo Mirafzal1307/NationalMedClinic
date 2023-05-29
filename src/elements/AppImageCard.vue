@@ -15,8 +15,8 @@
     >
     <div v-if="active" class="absolute bottom-0 w-full px-2 py-5">
       <div class="text-center">
-        <div class="text-base md:text-xl text-light font-bold">{{name}}</div>
-        <div class="text-sm md:text-lg text-light font-semibold">{{experience}}</div>
+        <div class="text-base md:text-xl text-light font-bold text-style">{{name}}</div>
+        <div class="text-sm md:text-lg text-light font-semibold text-style">{{experience}}</div>
       </div>
     </div>
   </div>
@@ -36,3 +36,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.text-style{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+</style>
