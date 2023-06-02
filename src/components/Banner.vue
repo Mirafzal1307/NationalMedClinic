@@ -12,7 +12,7 @@
           <div class="flex flex-col space-y-5">
             <div class=""> <span
                 class="text-primary-l-3"></span> </div>
-            <vue-typed-js class=" text-gray-200 text-5xl md:text-6xl font-black "  :typeSpeed="100" :strings="['Соғлигингиз ишончи қўлларда!']" :loop="true" :backSpeed="50"
+            <vue-typed-js class=" text-gray-200 text-5xl md:text-6xl font-black "  :typeSpeed="100" :strings="['Соғлигингиз ишончли қўлларда!']" :loop="true" :backSpeed="50"
   :cursorChar="''" >
               <h1 class="typing text-center "></h1>
 
